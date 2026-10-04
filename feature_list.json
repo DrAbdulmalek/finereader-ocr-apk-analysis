@@ -3,15 +3,103 @@
   "contract": "Harness Engineering v2.0 (AGENTS.md)",
   "updated": "2026-10-05",
   "features": [
-    {"id": "F001", "name": "بطاقة هوية التطبيق وبنية APK", "file": "docs/01-hawiya-al-tabaq.md", "status": "done", "evidence": "E01,E02,E25"},
-    {"id": "F002", "name": "معمارية المحرك الأصلي والترخيص والنماذج", "file": "docs/02-engine-architecture.md", "status": "done", "evidence": "E03..E07,E14,E23,E24,E29"},
-    {"id": "F003", "name": "خط أنابيب OCR عربي/إنجليزي خطوة بخطوة", "file": "docs/03-ocr-pipeline-ar-en.md", "status": "done", "evidence": "E08..E13,E18,E21,E22"},
-    {"id": "F004", "name": "بروتوكول خدمة التعرف السحابية", "file": "docs/04-online-recognition-service.md", "status": "done", "evidence": "E15,E16,E17"},
-    {"id": "F005", "name": "كتالوج الميزات الكامل", "file": "docs/05-features-catalog.md", "status": "done", "evidence": "E02,E03,E23,E26,E27"},
-    {"id": "F006", "name": "دروس قابلة للتطبيق على مشاريع المالك", "file": "docs/06-lessons-for-our-projects.md", "status": "done", "evidence": "E11,E12,E13"},
-    {"id": "F007", "name": "جدول أدلة E01..E30", "file": "docs/07-evidence.md", "status": "done", "evidence": "الكل"},
-    {"id": "F008", "name": "بوابات Harness: init.sh + verify.sh", "file": "init.sh, scripts/verify.sh", "status": "done", "evidence": "تشغيل حي في الجلسة"},
-    {"id": "F009", "name": "فحص سلوك الخادم السحابي (اعتراض حركة) — خارج النطاق حاليًا", "file": "-", "status": "not_planned", "evidence": "-"},
-    {"id": "F010", "name": "بناء عرض مرئي (مخطط معماري) لخط الأنابيب", "file": "-", "status": "proposed", "evidence": "-"}
+    {
+      "id": "F001",
+      "name": "بطاقة هوية التطبيق وبنية APK",
+      "file": "docs/01-hawiya-al-tabaq.md",
+      "status": "done",
+      "evidence": "E01,E02,E25"
+    },
+    {
+      "id": "F002",
+      "name": "معمارية المحرك الأصلي والترخيص والنماذج",
+      "file": "docs/02-engine-architecture.md",
+      "status": "done",
+      "evidence": "E03..E07,E14,E23,E24,E29"
+    },
+    {
+      "id": "F003",
+      "name": "خط أنابيب OCR عربي/إنجليزي خطوة بخطوة",
+      "file": "docs/03-ocr-pipeline-ar-en.md",
+      "status": "done",
+      "evidence": "E08..E13,E18,E21,E22"
+    },
+    {
+      "id": "F004",
+      "name": "بروتوكول خدمة التعرف السحابية",
+      "file": "docs/04-online-recognition-service.md",
+      "status": "done",
+      "evidence": "E15,E16,E17"
+    },
+    {
+      "id": "F005",
+      "name": "كتالوج الميزات الكامل",
+      "file": "docs/05-features-catalog.md",
+      "status": "done",
+      "evidence": "E02,E03,E23,E26,E27"
+    },
+    {
+      "id": "F006",
+      "name": "دروس قابلة للتطبيق على مشاريع المالك",
+      "file": "docs/06-lessons-for-our-projects.md",
+      "status": "done",
+      "evidence": "E11,E12,E13"
+    },
+    {
+      "id": "F007",
+      "name": "جدول أدلة E01..E30",
+      "file": "docs/07-evidence.md",
+      "status": "done",
+      "evidence": "الكل"
+    },
+    {
+      "id": "F008",
+      "name": "بوابات Harness: init.sh + verify.sh",
+      "file": "init.sh, scripts/verify.sh",
+      "status": "done",
+      "evidence": "تشغيل حي في الجلسة"
+    },
+    {
+      "id": "F009",
+      "name": "فحص سلوك الخادم السحابي (اعتراض حركة) — خارج النطاق حاليًا",
+      "file": "-",
+      "status": "not_planned",
+      "evidence": "-"
+    },
+    {
+      "id": "F010",
+      "name": "بناء عرض مرئي (مخطط معماري) لخط الأنابيب",
+      "file": "-",
+      "status": "proposed",
+      "evidence": "-"
+    },
+    {
+      "id": "F011",
+      "name": "سجل التطبيق: من التحليل إلى المستودعات (طبق فعليًا)",
+      "file": "docs/08-applied-lessons-and-pack-policy.md",
+      "status": "done",
+      "evidence": "PRs #11,#12,#20 + harness v2.1"
+    },
+    {
+      "id": "F012",
+      "name": "سياسة الحزمة العربية: رفض ABBYY (مستحيل/ممنوع) + بديل tessdata مفتوح",
+      "file": "docs/08 §3",
+      "status": "done",
+      "evidence": "E09 + OCR-core PR #12"
+    },
+    {
+      "id": "F013",
+      "name": "طبقة ذاكرة Markdown + Git (فكرة Talewell)",
+      "file": "memory/",
+      "status": "done",
+      "evidence": "harness v2.1 في 9 مستودعات"
+    },
+    {
+      "id": "F014",
+      "name": "بوابة OpenAgent Eval اختيارية في verify.sh",
+      "file": "-",
+      "status": "proposed",
+      "evidence": "-"
+    }
   ]
 }
