@@ -1,0 +1,12 @@
+# لا أصول ثنائية أو أسرار في هذا المستودع
+.secrets/
+*.apk
+*.rar
+*.zip
+*.so
+*.rom
+*.edc
+*.traineddata
+__pycache__/
+*.pyc
+state/
