@@ -36,7 +36,9 @@
 | [docs/04-online-recognition-service.md](docs/04-online-recognition-service.md) | بروتوكول خدمة التعرف السحابية |
 | [docs/05-features-catalog.md](docs/05-features-catalog.md) | كتالوج الميزات الكامل (مرئية وغير مرئية) |
 | [docs/06-lessons-for-our-projects.md](docs/06-lessons-for-our-projects.md) | دروس قابلة للتطبيق في مشاريعنا (ocr-core، edit-ocr، mtp) |
-| [docs/07-evidence.md](docs/07-evidence.md) | جدول الأدلة لكل إدعاء |
+| [docs/07-evidence.md](docs/07-evidence.md) | جدول الأدلة لكل إدعاء (E01–E30 APK + E31–E36 ويب) |
+| [docs/08-applied-lessons-and-pack-policy.md](docs/08-applied-lessons-and-pack-policy.md) | سجل التطبيق الفعلي + سياسة الحزمة العربية (الرفض الموثق) |
+| [docs/09-ocr-algorithms-legal-study.md](docs/09-ocr-algorithms-legal-study.md) | خوارزميات OCR عربي/إنجليزي من مصادر قانونية: البراءات + الكود المفتوح |
 
 ## إشعار قانوني وأخلاقي
 

@@ -40,6 +40,19 @@
 | E29 | إدارة ذاكرة صور صريحة | `imaging/OutOfMemoryException.java`, `imaging/filter/StatefulBitmapLruCache.java`, `CropDownsampler.java` |
 | E30 | 5,193 صنفًا مفكوكًا، 5 أخطاء فك | سجل jadx 1.5.1 (أرشيف العمل) |
 
+## أدلة عامة (ويب) — مضافة مع doc 09 (تحقق 2026-10-05)
+
+هذه الأدلة خارج فحص الـ APK الساكن: مصادر عامة منشورة، تحقق منها البحث الآلي + قراءة مباشرة بتاريخ 2026-10-05. تخدم doc/09 (دراسة الخوارزميات القانونية).
+
+| # | الإدعاء | الدليل |
+|---|---|---|
+| E31 | ADRT (Adaptive Document Recognition Technology): معالجة المستند متعدد الصفحات **ككيان واحد** لا صفحات منفصلة — توحيد الرؤوس/التذييلات وتسلسل القراءة | help.abbyy.com — مسرد ABBYY الرسمي (مدخل ADRT) |
+| E32 | براءات ABBYY Development Inc. في فئة تقطيع الحروف/الكلمات — من المخترعين الموثقين Mikhail Lanin وStanislav Semenov؛ السجل يعرض أرقامًا من الفئة منها 12,160,639 | patents.justia.com — صفحة المسند abbyy-development-inc |
+| E33 | عائلة براءة «Method and system for machine-based extraction and interpretation of textual information» — Applicant: ABBYY INFOPOISK LLC / Assignee: ABBYY PRODUCTION LLC | paperdigest.org — سجل البراءة |
+| E34 | إعلان ABBYY (فبراير 2026): 22 براءة جديدة خلال سنتين في توثيق الذكاء الاصطناعي، منها «Extracting Multiple Documents from a Single Image» و«Detecting Fields in Document Images» | itbrief.news + industryanalysts.com (إعلانات منشورة) |
+| E35 | فوز ABBYY في دعوى انتهاك براءات ضد Nuance (محلفون: لا انتهاك لبراءات التقنية) — دليل محفظة براءات فعلية | prnewswire.com — بيان صحفي |
+| E36 | FineReader Engine 12 SDK متاح لـ Windows/Linux/OS X — بوابة ترخيص المطورين/OEM الرسمية (المحرك + بيانات اللغات) | static3.abbyy.com (بيان المنتج الرسمي) + abbyy.com/ocr-sdk |
+
 ## حدود الأدلة
 
 - كل الأدلة **ساكنة**؛ لم يُنفذ التطبيق ولم تُعترض أي حركة شبكة.
